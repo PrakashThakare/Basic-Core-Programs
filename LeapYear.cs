@@ -12,7 +12,7 @@ namespace BasicCoreProgram
         {
             Console.WriteLine("Enter Number For Leap Year");
             int iValue = Convert.ToInt32(Console.ReadLine());
-            if((iValue%4==0) || (iValue %100!=0) || (iValue %400==0))
+            if((iValue % 4 == 0 && iValue % 100 != 0) || (iValue %400 == 0))
             {
                 Console.WriteLine("It is Leap Year");
             }
